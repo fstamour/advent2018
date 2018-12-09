@@ -12,6 +12,7 @@ https://adventofcode.com/2018
 
 * [day1.clj](day1/day1.clj)
 * [day1.lisp](day1/day1.lisp)
+* [day1.lisp](day1/day1-streams.lisp)
 * `awk { sum += $1 } END { print sum }`
 
 
