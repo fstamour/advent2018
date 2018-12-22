@@ -106,6 +106,7 @@ e.g. (take 10 (range 0 4)) => (0 1 2 3), 4"
  (list-seq nil))
 
 ;; recursive
+#+nil
 (defun drop (n seq)
   (if (empty? seq)
       +empty+
@@ -271,4 +272,3 @@ e.g. (take 10 (range 0 4)) => (0 1 2 3), 4"
              (find-duplicate
               (accumulation #'+ 0 (cycle seq)))))))
 ;; => 390
-

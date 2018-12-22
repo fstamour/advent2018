@@ -73,20 +73,20 @@ Returns the set of frequencies of 2s and 3s."
 ;; (find-common-elements "abc" "akc")
 ;; => (\a \c)
 
-(defn day2-part2 [ids]
+(defn day02-part2 [ids]
   (clojure.string/join
    (apply find-common-elements
           (into []
                 (first (find-close-sequences ids))))))
 
 ;; Example from the problem statement.
-;; (day2-part2 '["abcde" "fghij" "klmno" "pqrst" "fguij" "axcye" "wvxyz"])
+;; (day02-part2 '["abcde" "fghij" "klmno" "pqrst" "fguij" "axcye" "wvxyz"])
 ;; => "fgij"
 
 (let [;; Get all ids as a vector
       ids (with-open [stream (clojure.java.io/reader "input")]
             (into [] (line-seq stream)))]
   (println
-   (day2-part2 ids)))
+   (day02-part2 ids)))
 ;; => "srijafjzloguvlntqmphenbkd"
 

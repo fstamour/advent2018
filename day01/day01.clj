@@ -1,6 +1,6 @@
 ;;;; nix-shell -p boot; boot repl
 
-(ns day1)
+(ns day01)
 
 ;;; Utils
 
