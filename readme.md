@@ -22,14 +22,17 @@ nix-shell --pure -p boot --run 'boot repl'
 * `awk { sum += $1 } END { print sum }`
 
 
-## Day2 - Inventory management system
+## Day 2 - Inventory management system
 
 * [day02.clj](day02/day02.clj)
 
-## Day3 - No matter how you slice it
+## Day 3 - No matter how you slice it
 
 * [day03.clj](day03/day03.clj)
 
+## Day 4 - Repose record
+
+* [day04.clj](day04/day04.clj)
 
 ## Notes on clojure
 
